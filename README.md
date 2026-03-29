@@ -25,4 +25,8 @@ O usuário escolhe a figura e informa os valores necessários para o cálculo da
 
 Copie o código e compile
 
+---
 
+##  Autor
+
+Desenvolvido por **AI MEU DEUS EH O LUNAA**
