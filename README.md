@@ -25,5 +25,4 @@ O usuário escolhe a figura e informa os valores necessários para o cálculo da
 
 Copie o código e compile
 
-```bash
-git clone https://github.com/SEU-USUARIO/calculadora-areas-c.git
+
