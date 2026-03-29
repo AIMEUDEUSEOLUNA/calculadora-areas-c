@@ -1,2 +1,29 @@
-# calculadora-areas-c
-Programa em C que calcula áreas de figuras geométricas via terminal (retângulo, triângulo, círculo, etc).
+# Calculadora de Áreas em C
+
+Programa simples em linguagem C que calcula a área de diferentes figuras geométricas.
+
+##  Funcionalidades
+
+- Retângulo
+- Triângulo
+- Paralelogramo
+- Losango
+- Trapézio
+- Quadrado
+- Círculo
+
+## Como funciona?
+
+O usuário escolhe a figura e informa os valores necessários para o cálculo da área.
+
+## Tecnologias
+
+- Linguagem C
+- Compilador GCC
+
+## Como executar
+
+Copie o código e compile
+
+```bash
+git clone https://github.com/SEU-USUARIO/calculadora-areas-c.git
