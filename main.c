@@ -5,10 +5,19 @@ int main()
 {
 //variaveis
     float areaCirculo, raio,areaQuadrado, ladoQ, areaTrapezio, alturaT, bMenor, bMaior,areaLosango, dMenor, dMaior,areaParalelo, alturaP, baseP,areaTriangulo, alturaTri, baseTri,areaRetangulo, alturaR, baseR;
-    int decisao;
+    int decisao,idade;
     
-//decisão
+//entradas
+    printf("Quantos anos você tem?\n");
+    scanf("%i",&idade);
     
+    if (idade <= 17)
+    {
+      
+       printf("\033[31mATENCAO: USO NAO AUTORIZADO DETECTADO\n\nDe acordo com a Lei nº 15.211/2025 (ECA Digital), este sistema restringe o acesso a menores de 18 anos.\n\nTentativas de burlar restricoes etarias podem ser registradas para fins de conformidade, seguranca e auditoria.\n\nSeu acesso foi bloqueado automaticamente.\nRetorne apenas quando atender aos requisitos legais.\033[0m\n");
+    }
+    else
+    {
     printf("\n");
 
     printf("  _______        /\\            ______        /\\          ______        ______        ____   \n |   1   |      /  \\          /  3  /       /  \\        /      \\      |      |     /      \\ \n |_______|     / 2  \\        /_____/       < 4  >      /   5    \\     |  6   |    |   7    |\n              /______\\                      \\  /      /__________\\    |______|     \\ ____ / \n                                             \\/                                                \n");
@@ -93,6 +102,6 @@ int main()
         printf("\nA area dessa bola eh \033[0;32m%.2f m2\033[0m",areaCirculo);   
     }
     
-    
+    }
     return 0;
 }
